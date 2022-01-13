@@ -1,0 +1,43 @@
+.logo-img {
+    width: 60px;
+    object-fit: contain;
+}
+
+.wave {
+    object-fit: cover;
+    height: 385px;
+    width: 100%;
+}
+
+.navbar.navbar-expand-lg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+[src="./img/wave.svg"] {
+    height: 385px;
+    width: 100%;
+    object-fit: cover;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+}
+
+.nav-link,
+li>span {
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+@media (max-width:700px) {
+    .wave {
+        height: 490px;
+    }
+}

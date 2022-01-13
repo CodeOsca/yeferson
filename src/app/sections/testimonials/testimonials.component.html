@@ -1,0 +1,6 @@
+<section data-section="testimonials" id="testimonials" class="p-2 mb-4">
+    <div class="row">
+        <h5 class="text-center">{{ 'Testimonios' | uppercase }}</h5>
+        <app-testimonial class="col-12 col-lg-6 p-2 text-white" *ngFor="let testimonial of testimonials" [testimonial]="testimonial"></app-testimonial>
+    </div>
+</section>

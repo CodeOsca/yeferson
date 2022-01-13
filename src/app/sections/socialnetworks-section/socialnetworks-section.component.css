@@ -1,0 +1,9 @@
+i.fab {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    transition: transform .5s ease-in-out;
+}
+
+i.fab:hover {
+    transform: translateY(-5px);
+}

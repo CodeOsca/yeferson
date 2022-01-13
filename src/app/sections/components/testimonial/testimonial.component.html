@@ -1,0 +1,18 @@
+<article class="card h-100 bg-primary shadow-sm">
+    <div class="card-body background-card">
+        <div class="d-flex mb-1">
+            <img [src]="testimonial.img" [alt]="testimonial.name" class="border-0 border-secondary rounded-circle" style="height: 56px; width: 56px;">
+            <div class="ps-lg-2  ps-2">
+                <h6 class="m-0 h6 ">{{ testimonial.name }}</h6>
+                <p class="m-0 h6" style="font-size: .70rem;">
+                    {{ testimonial.occupation }}
+                </p>
+            </div>
+        </div>
+        <div>
+            <p class="lh-1">
+                {{ testimonial.paragraph }}
+            </p>
+        </div>
+    </div>
+</article>

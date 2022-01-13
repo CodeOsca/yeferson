@@ -1,0 +1,54 @@
+<header>
+    <img src="./assets/img/wave.svg" class="wave" alt="Ola" />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-dark">
+        <div class="container-fluid">
+            <a class="d-flex justify-content-center align-items-center" href="/">
+                <img src="./assets/img/favicon.ico" class="logo-img" alt="Logo_EMPRESARIAL">
+            </a>
+            <button #buttonMenu class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <span class="nav-link" data-link="inicio" (click)="onClick()">Inicio</span>
+                    </li>
+
+                    <li class="nav-item">
+                        <span class="nav-link" data-link="about-me" (click)="onClick()">Sobre mí</span>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <span class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Emprendimientos
+                        </span>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <span class="dropdown-item" data-link="emprendimiento-introduction" (click)="onClick()">Introducción</span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" data-link="emprendimiento2" (click)="onClick()">Sueldo en linea</span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" data-link="emprendimiento1" (click)="onClick()">Royal Q</span>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <span class="nav-link" data-link="testimonials" (click)="onClick()">Testimonios</span>
+                    </li>
+
+                    <li class="nav-item">
+                        <span class="nav-link" data-link="redes-sociales" (click)="onClick()">Redes Sociales</span>
+                    </li>
+
+                    <li class="nav-item">
+                        <span class="nav-link" data-link="contacto" (click)="onClick()">Contacto</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
